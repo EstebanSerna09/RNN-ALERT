@@ -1,0 +1,18 @@
+{
+  "roc_auc": 0.9923076923076923,
+  "pr_auc": 0.7916666666666666,
+  "recall_opt": 1.0,
+  "precision_opt": 0.6666666666666666,
+  "f1_opt": 0.8,
+  "recall_05": 0.5,
+  "precision_05": 0.5,
+  "f1_05": 0.5,
+  "umbral_optimo": 0.19,
+  "precision@100": 0.029850746268656716,
+  "reporte": "              precision    recall  f1-score   support\n\n No desertor     1.0000    0.9846    0.9922        65\n    Desertor     0.6667    1.0000    0.8000         2\n\n    accuracy                         0.9851        67\n   macro avg     0.8333    0.9923    0.8961        67\nweighted avg     0.9900    0.9851    0.9865        67\n",
+  "mae": 0.14332172274589539,
+  "rmse": 0.1915438324213028,
+  "r2": 0.9803466200828552,
+  "programa": "ADMINISTRACION_FINANCIERA",
+  "timestamp": "2026-06-17T11:16:29.693169"
+}

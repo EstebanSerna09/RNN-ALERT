@@ -1,0 +1,27 @@
+{
+  "total": 10,
+  "ok": 10,
+  "errores": 0,
+  "duracion_total_seg": 196.2,
+  "timestamp": "2026-06-14T14:57:27.493242",
+  "programas_ok": [
+    "ADMINISTRACION_DE_EMPRESAS",
+    "ADMINISTRACION_FINANCIERA",
+    "ARQUITECTURA",
+    "DISENO_VISUAL",
+    "INGENIERIA_INFORMATICA",
+    "TECNOLOGIA_EN_DELINEANTES_DE_ARQUITECTURA_E_INGENIERIA",
+    "TECNOLOGIA_EN_DESARROLLO_DE_SOFTWARE",
+    "TECNOLOGIA_EN_GESTION_COMERCIAL_Y_DE_MERCADOS",
+    "TECNOLOGIA_EN_GESTION_EMPRESARIAL",
+    "TECNOLOGIA_EN_GESTION_FINANCIERA"
+  ],
+  "programas_error": [],
+  "promedio_auc": 0.9944,
+  "promedio_recall": 0.9908,
+  "promedio_f1": 0.939,
+  "mejor_programa": "ADMINISTRACION_DE_EMPRESAS",
+  "peor_programa": "INGENIERIA_INFORMATICA",
+  "mejor_recall": 1.0,
+  "peor_recall": 0.96
+}

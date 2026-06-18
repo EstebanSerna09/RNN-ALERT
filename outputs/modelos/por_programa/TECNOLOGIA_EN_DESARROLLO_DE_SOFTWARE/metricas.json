@@ -1,0 +1,18 @@
+{
+  "roc_auc": 1.0,
+  "pr_auc": 0.9999999999999999,
+  "recall_opt": 1.0,
+  "precision_opt": 1.0,
+  "f1_opt": 1.0,
+  "recall_05": 1.0,
+  "precision_05": 0.967741935483871,
+  "f1_05": 0.9836065573770492,
+  "umbral_optimo": 0.5900000000000002,
+  "precision@100": 0.3,
+  "reporte": "              precision    recall  f1-score   support\n\n No desertor     1.0000    1.0000    1.0000        87\n    Desertor     1.0000    1.0000    1.0000        30\n\n    accuracy                         1.0000       117\n   macro avg     1.0000    1.0000    1.0000       117\nweighted avg     1.0000    1.0000    1.0000       117\n",
+  "mae": 0.12258164584636688,
+  "rmse": 0.17164380848407745,
+  "r2": 0.9854218363761902,
+  "programa": "TECNOLOGIA_EN_DESARROLLO_DE_SOFTWARE",
+  "timestamp": "2026-06-17T11:18:01.072940"
+}

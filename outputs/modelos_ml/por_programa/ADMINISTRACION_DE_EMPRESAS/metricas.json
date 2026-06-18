@@ -1,0 +1,94 @@
+{
+  "programa": "ADMINISTRACION_DE_EMPRESAS",
+  "timestamp": "2026-06-14T14:58:36.245588",
+  "svm_clas": {
+    "tarea": "clasificacion_desercion",
+    "roc_auc": 0.9521367521367521,
+    "pr_auc": 0.6571839426006092,
+    "recall_opt": 0.8333333333333334,
+    "precision_opt": 0.5555555555555556,
+    "f1_opt": 0.6666666666666666,
+    "accuracy_opt": 0.9751243781094527,
+    "recall_05": 0.5,
+    "precision_05": 0.75,
+    "f1_05": 0.6,
+    "umbral_optimo": 0.16000000000000003
+  },
+  "rf_clas": {
+    "tarea": "clasificacion_desercion",
+    "roc_auc": 0.9700854700854701,
+    "pr_auc": 0.8559451219512195,
+    "recall_opt": 0.8333333333333334,
+    "precision_opt": 1.0,
+    "f1_opt": 0.9090909090909091,
+    "accuracy_opt": 0.9950248756218906,
+    "recall_05": 0.8333333333333334,
+    "precision_05": 0.5,
+    "f1_05": 0.625,
+    "umbral_optimo": 0.8600000000000002
+  },
+  "rl_clas": {
+    "tarea": "clasificacion_desercion",
+    "roc_auc": 0.9752136752136753,
+    "pr_auc": 0.6887691570881226,
+    "recall_opt": 0.8333333333333334,
+    "precision_opt": 0.625,
+    "f1_opt": 0.7142857142857143,
+    "accuracy_opt": 0.9800995024875622,
+    "recall_05": 0.8333333333333334,
+    "precision_05": 0.35714285714285715,
+    "f1_05": 0.5,
+    "umbral_optimo": 0.7900000000000001
+  },
+  "svm_reg": {
+    "tarea": "regresion_nota",
+    "mae": 0.20562494090785216,
+    "mse": 0.10592404663762775,
+    "rmse": 0.32545974657033666,
+    "r2": 0.9355818091252015
+  },
+  "rf_reg": {
+    "tarea": "regresion_nota",
+    "mae": 0.1584512379819115,
+    "mse": 0.0712373013890156,
+    "rmse": 0.26690316856308693,
+    "r2": 0.9566767110589882
+  },
+  "lineal_reg": {
+    "tarea": "regresion_nota",
+    "mae": 0.45162177085876465,
+    "mse": 0.4402599334716797,
+    "rmse": 0.6635208613688643,
+    "r2": 0.732253909111023
+  },
+  "svm_clas_cm": [
+    [
+      191,
+      4
+    ],
+    [
+      1,
+      5
+    ]
+  ],
+  "rf_clas_cm": [
+    [
+      195,
+      0
+    ],
+    [
+      1,
+      5
+    ]
+  ],
+  "rl_clas_cm": [
+    [
+      192,
+      3
+    ],
+    [
+      1,
+      5
+    ]
+  ]
+}

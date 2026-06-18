@@ -1,0 +1,94 @@
+{
+  "programa": "DISENO_VISUAL",
+  "timestamp": "2026-06-14T14:58:38.982224",
+  "svm_clas": {
+    "tarea": "clasificacion_desercion",
+    "roc_auc": 0.8397959183673469,
+    "pr_auc": 0.7737659325453421,
+    "recall_opt": 0.65,
+    "precision_opt": 0.8125,
+    "f1_opt": 0.7222222222222222,
+    "accuracy_opt": 0.855072463768116,
+    "recall_05": 0.5,
+    "precision_05": 0.8333333333333334,
+    "f1_05": 0.625,
+    "umbral_optimo": 0.37000000000000005
+  },
+  "rf_clas": {
+    "tarea": "clasificacion_desercion",
+    "roc_auc": 0.8683673469387755,
+    "pr_auc": 0.8285772275184913,
+    "recall_opt": 0.6,
+    "precision_opt": 1.0,
+    "f1_opt": 0.75,
+    "accuracy_opt": 0.8840579710144928,
+    "recall_05": 0.6,
+    "precision_05": 0.8,
+    "f1_05": 0.6857142857142857,
+    "umbral_optimo": 0.6700000000000002
+  },
+  "rl_clas": {
+    "tarea": "clasificacion_desercion",
+    "roc_auc": 0.8193877551020409,
+    "pr_auc": 0.7436064985302033,
+    "recall_opt": 0.6,
+    "precision_opt": 0.8,
+    "f1_opt": 0.6857142857142857,
+    "accuracy_opt": 0.8405797101449275,
+    "recall_05": 0.75,
+    "precision_05": 0.5769230769230769,
+    "f1_05": 0.6521739130434783,
+    "umbral_optimo": 0.7100000000000002
+  },
+  "svm_reg": {
+    "tarea": "regresion_nota",
+    "mae": 0.4896279620826447,
+    "mse": 0.5688753014401468,
+    "rmse": 0.754238225920794,
+    "r2": 0.7605149350824456
+  },
+  "rf_reg": {
+    "tarea": "regresion_nota",
+    "mae": 0.4889155998976292,
+    "mse": 0.5102100267540223,
+    "rmse": 0.7142898758585496,
+    "r2": 0.785211836285654
+  },
+  "lineal_reg": {
+    "tarea": "regresion_nota",
+    "mae": 0.5840861797332764,
+    "mse": 0.6478050351142883,
+    "rmse": 0.8048633642515283,
+    "r2": 0.7272871136665344
+  },
+  "svm_clas_cm": [
+    [
+      46,
+      3
+    ],
+    [
+      7,
+      13
+    ]
+  ],
+  "rf_clas_cm": [
+    [
+      49,
+      0
+    ],
+    [
+      8,
+      12
+    ]
+  ],
+  "rl_clas_cm": [
+    [
+      46,
+      3
+    ],
+    [
+      8,
+      12
+    ]
+  ]
+}

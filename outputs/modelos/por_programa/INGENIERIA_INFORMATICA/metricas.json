@@ -1,0 +1,18 @@
+{
+  "roc_auc": 0.9984496124031008,
+  "pr_auc": 0.9932183908045977,
+  "recall_opt": 0.96,
+  "precision_opt": 1.0,
+  "f1_opt": 0.9795918367346939,
+  "recall_05": 0.96,
+  "precision_05": 1.0,
+  "f1_05": 0.9795918367346939,
+  "umbral_optimo": 0.15000000000000002,
+  "precision@100": 0.25,
+  "reporte": "              precision    recall  f1-score   support\n\n No desertor     0.9923    1.0000    0.9961       129\n    Desertor     1.0000    0.9600    0.9796        25\n\n    accuracy                         0.9935       154\n   macro avg     0.9962    0.9800    0.9879       154\nweighted avg     0.9936    0.9935    0.9935       154\n",
+  "mae": 0.13654492795467377,
+  "rmse": 0.19448359310626984,
+  "r2": 0.979485809803009,
+  "programa": "INGENIERIA_INFORMATICA",
+  "timestamp": "2026-06-17T11:17:25.366176"
+}

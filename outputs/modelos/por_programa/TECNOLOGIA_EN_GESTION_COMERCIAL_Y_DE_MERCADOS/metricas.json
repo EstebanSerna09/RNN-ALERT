@@ -1,0 +1,18 @@
+{
+  "roc_auc": 0.9991833401388321,
+  "pr_auc": 0.9980144183773214,
+  "recall_opt": 0.967741935483871,
+  "precision_opt": 1.0,
+  "f1_opt": 0.9836065573770492,
+  "recall_05": 0.967741935483871,
+  "precision_05": 1.0,
+  "f1_05": 0.9836065573770492,
+  "umbral_optimo": 0.44000000000000006,
+  "precision@100": 0.31,
+  "reporte": "              precision    recall  f1-score   support\n\n No desertor     0.9875    1.0000    0.9937        79\n    Desertor     1.0000    0.9677    0.9836        31\n\n    accuracy                         0.9909       110\n   macro avg     0.9938    0.9839    0.9887       110\nweighted avg     0.9910    0.9909    0.9909       110\n",
+  "mae": 0.175752654671669,
+  "rmse": 0.23744502663612366,
+  "r2": 0.9755691885948181,
+  "programa": "TECNOLOGIA_EN_GESTION_COMERCIAL_Y_DE_MERCADOS",
+  "timestamp": "2026-06-17T11:18:17.004702"
+}

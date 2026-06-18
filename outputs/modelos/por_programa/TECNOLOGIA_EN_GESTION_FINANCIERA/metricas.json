@@ -1,0 +1,18 @@
+{
+  "roc_auc": 0.9876543209876544,
+  "pr_auc": 0.9732953699193492,
+  "recall_opt": 0.9629629629629629,
+  "precision_opt": 0.896551724137931,
+  "f1_opt": 0.9285714285714286,
+  "recall_05": 0.8518518518518519,
+  "precision_05": 0.8846153846153846,
+  "f1_05": 0.8679245283018868,
+  "umbral_optimo": 0.32000000000000006,
+  "precision@100": 0.3103448275862069,
+  "reporte": "              precision    recall  f1-score   support\n\n No desertor     0.9828    0.9500    0.9661        60\n    Desertor     0.8966    0.9630    0.9286        27\n\n    accuracy                         0.9540        87\n   macro avg     0.9397    0.9565    0.9473        87\nweighted avg     0.9560    0.9540    0.9545        87\n",
+  "mae": 0.1991136074066162,
+  "rmse": 0.29072970151901245,
+  "r2": 0.9419825673103333,
+  "programa": "TECNOLOGIA_EN_GESTION_FINANCIERA",
+  "timestamp": "2026-06-14T14:57:27.493242"
+}

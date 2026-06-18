@@ -1,0 +1,79 @@
+# ============================================================
+# RNN-ALERT · .gitignore
+# Conserva código, documentación, métricas y referencias.
+# Evita subir entornos, cachés, logs, datos crudos subidos y modelos pesados.
+# ============================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# IDE / sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs y temporales
+*.log
+*.tmp
+*.temp
+logs/
+runs/
+checkpoints/
+.streamlit/cache/
+
+# Variables de entorno / secretos
+.env
+.env.*
+!.env.example
+secrets.toml
+.streamlit/secrets.toml
+
+# Uploads locales de pruebas
+uploads/*
+!uploads/.gitkeep
+
+# Modelos entrenados pesados
+# Nota: el script limpiar_proyecto.ps1 NO los borra; solo se ignoran para Git.
+outputs/modelos/**/*.keras
+outputs/modelos/**/*.h5
+outputs/modelos/**/*.hdf5
+outputs/modelos/**/*.pkl
+outputs/modelos/**/*.joblib
+outputs/modelos/**/*.sav
+outputs/modelos_ml/**/*.pkl
+outputs/modelos_ml/**/*.joblib
+outputs/modelos_ml/**/*.sav
+
+# Checkpoints y artefactos binarios de entrenamiento
+*.ckpt
+*.weights.h5
+
+# Mantener métricas, auditorías y resultados livianos versionables
+!outputs/resultados/
+!outputs/resultados/**/*.csv
+!outputs/resultados/**/*.json
+!outputs/auditoria/
+!outputs/auditoria/**/*.csv
+!docs/**/*.md
+
+# Referencias del proyecto se conservan
+!data/referencia/**/*.csv
+!assets/**

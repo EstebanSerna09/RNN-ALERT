@@ -1,0 +1,18 @@
+{
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "recall_opt": 1.0,
+  "precision_opt": 1.0,
+  "f1_opt": 1.0,
+  "recall_05": 1.0,
+  "precision_05": 0.9850746268656716,
+  "f1_05": 0.9924812030075187,
+  "umbral_optimo": 0.5700000000000002,
+  "precision@100": 0.66,
+  "reporte": "              precision    recall  f1-score   support\n\n No desertor     1.0000    1.0000    1.0000        95\n    Desertor     1.0000    1.0000    1.0000        66\n\n    accuracy                         1.0000       161\n   macro avg     1.0000    1.0000    1.0000       161\nweighted avg     1.0000    1.0000    1.0000       161\n",
+  "mae": 0.10785205662250519,
+  "rmse": 0.15883581340312958,
+  "r2": 0.9871420860290527,
+  "programa": "TECNOLOGIA_EN_GESTION_EMPRESARIAL",
+  "timestamp": "2026-06-17T11:18:49.486271"
+}

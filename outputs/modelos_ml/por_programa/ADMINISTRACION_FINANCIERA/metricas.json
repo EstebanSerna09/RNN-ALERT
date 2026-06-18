@@ -1,0 +1,94 @@
+{
+  "programa": "ADMINISTRACION_FINANCIERA",
+  "timestamp": "2026-06-14T14:58:37.085765",
+  "svm_clas": {
+    "tarea": "clasificacion_desercion",
+    "roc_auc": 0.9897959183673469,
+    "pr_auc": 0.7916666666666666,
+    "recall_opt": 1.0,
+    "precision_opt": 0.6666666666666666,
+    "f1_opt": 0.8,
+    "accuracy_opt": 0.9803921568627451,
+    "recall_05": 0.5,
+    "precision_05": 1.0,
+    "f1_05": 0.6666666666666666,
+    "umbral_optimo": 0.12000000000000001
+  },
+  "rf_clas": {
+    "tarea": "clasificacion_desercion",
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "recall_opt": 1.0,
+    "precision_opt": 1.0,
+    "f1_opt": 1.0,
+    "accuracy_opt": 1.0,
+    "recall_05": 1.0,
+    "precision_05": 0.6666666666666666,
+    "f1_05": 0.8,
+    "umbral_optimo": 0.8000000000000002
+  },
+  "rl_clas": {
+    "tarea": "clasificacion_desercion",
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "recall_opt": 1.0,
+    "precision_opt": 1.0,
+    "f1_opt": 1.0,
+    "accuracy_opt": 1.0,
+    "recall_05": 1.0,
+    "precision_05": 0.5,
+    "f1_05": 0.6666666666666666,
+    "umbral_optimo": 0.9300000000000002
+  },
+  "svm_reg": {
+    "tarea": "regresion_nota",
+    "mae": 0.2639120975179431,
+    "mse": 0.1279800127051626,
+    "rmse": 0.35774294221572367,
+    "r2": 0.9132505584698931
+  },
+  "rf_reg": {
+    "tarea": "regresion_nota",
+    "mae": 0.13991382192622848,
+    "mse": 0.03363443561809607,
+    "rmse": 0.18339693459296444,
+    "r2": 0.977201373524067
+  },
+  "lineal_reg": {
+    "tarea": "regresion_nota",
+    "mae": 0.7543731927871704,
+    "mse": 1.3035454750061035,
+    "rmse": 1.141729160092753,
+    "r2": 0.11641007661819458
+  },
+  "svm_clas_cm": [
+    [
+      48,
+      1
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "rf_clas_cm": [
+    [
+      49,
+      0
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "rl_clas_cm": [
+    [
+      49,
+      0
+    ],
+    [
+      0,
+      2
+    ]
+  ]
+}

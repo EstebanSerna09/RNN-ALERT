@@ -1,0 +1,18 @@
+{
+  "roc_auc": 0.9854545454545454,
+  "pr_auc": 0.9749773109081665,
+  "recall_opt": 1.0,
+  "precision_opt": 0.9166666666666666,
+  "f1_opt": 0.9565217391304348,
+  "recall_05": 0.9696969696969697,
+  "precision_05": 0.9142857142857143,
+  "f1_05": 0.9411764705882353,
+  "umbral_optimo": 0.22000000000000003,
+  "precision@100": 0.39759036144578314,
+  "reporte": "              precision    recall  f1-score   support\n\n No desertor     1.0000    0.9400    0.9691        50\n    Desertor     0.9167    1.0000    0.9565        33\n\n    accuracy                         0.9639        83\n   macro avg     0.9583    0.9700    0.9628        83\nweighted avg     0.9669    0.9639    0.9641        83\n",
+  "mae": 0.11997193098068237,
+  "rmse": 0.16088542342185974,
+  "r2": 0.9874236583709717,
+  "programa": "TECNOLOGIA_EN_DELINEANTES_DE_ARQUITECTURA_E_INGENIERIA",
+  "timestamp": "2026-06-17T11:17:41.577519"
+}

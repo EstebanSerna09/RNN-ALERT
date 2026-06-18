@@ -1,0 +1,18 @@
+{
+  "roc_auc": 0.9966329966329966,
+  "pr_auc": 0.9885166171636823,
+  "recall_opt": 1.0,
+  "precision_opt": 0.9310344827586207,
+  "f1_opt": 0.9642857142857143,
+  "recall_05": 0.9259259259259259,
+  "precision_05": 0.9259259259259259,
+  "f1_05": 0.9259259259259259,
+  "umbral_optimo": 0.09000000000000001,
+  "precision@100": 0.27,
+  "reporte": "              precision    recall  f1-score   support\n\n No desertor     1.0000    0.9773    0.9885        88\n    Desertor     0.9310    1.0000    0.9643        27\n\n    accuracy                         0.9826       115\n   macro avg     0.9655    0.9886    0.9764       115\nweighted avg     0.9838    0.9826    0.9828       115\n",
+  "mae": 0.1842464953660965,
+  "rmse": 0.2761906683444977,
+  "r2": 0.9621291160583496,
+  "programa": "ARQUITECTURA",
+  "timestamp": "2026-06-17T11:16:48.702408"
+}

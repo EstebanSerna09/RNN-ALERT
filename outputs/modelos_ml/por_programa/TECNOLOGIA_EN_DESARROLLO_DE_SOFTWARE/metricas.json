@@ -1,0 +1,94 @@
+{
+  "programa": "TECNOLOGIA_EN_DESARROLLO_DE_SOFTWARE",
+  "timestamp": "2026-06-14T14:58:41.927147",
+  "svm_clas": {
+    "tarea": "clasificacion_desercion",
+    "roc_auc": 0.8981818181818182,
+    "pr_auc": 0.7902183405171239,
+    "recall_opt": 0.84,
+    "precision_opt": 0.7,
+    "f1_opt": 0.7636363636363637,
+    "accuracy_opt": 0.8571428571428571,
+    "recall_05": 0.52,
+    "precision_05": 0.7222222222222222,
+    "f1_05": 0.6046511627906976,
+    "umbral_optimo": 0.23000000000000004
+  },
+  "rf_clas": {
+    "tarea": "clasificacion_desercion",
+    "roc_auc": 0.9157575757575758,
+    "pr_auc": 0.7544357831478004,
+    "recall_opt": 0.8,
+    "precision_opt": 0.8333333333333334,
+    "f1_opt": 0.8163265306122449,
+    "accuracy_opt": 0.9010989010989011,
+    "recall_05": 0.8,
+    "precision_05": 0.8333333333333334,
+    "f1_05": 0.8163265306122449,
+    "umbral_optimo": 0.5000000000000001
+  },
+  "rl_clas": {
+    "tarea": "clasificacion_desercion",
+    "roc_auc": 0.932121212121212,
+    "pr_auc": 0.8706748490413971,
+    "recall_opt": 0.8,
+    "precision_opt": 0.8,
+    "f1_opt": 0.8,
+    "accuracy_opt": 0.8901098901098901,
+    "recall_05": 0.8,
+    "precision_05": 0.8,
+    "f1_05": 0.8,
+    "umbral_optimo": 0.5000000000000001
+  },
+  "svm_reg": {
+    "tarea": "regresion_nota",
+    "mae": 0.4079939874242973,
+    "mse": 0.38492963305659045,
+    "rmse": 0.6204269764094646,
+    "r2": 0.8133847387162572
+  },
+  "rf_reg": {
+    "tarea": "regresion_nota",
+    "mae": 0.3554687679874952,
+    "mse": 0.3034400288785872,
+    "rmse": 0.5508539088348082,
+    "r2": 0.8528911899469193
+  },
+  "lineal_reg": {
+    "tarea": "regresion_nota",
+    "mae": 0.6647593975067139,
+    "mse": 0.7482847571372986,
+    "rmse": 0.8650345410082181,
+    "r2": 0.6372288465499878
+  },
+  "svm_clas_cm": [
+    [
+      57,
+      9
+    ],
+    [
+      4,
+      21
+    ]
+  ],
+  "rf_clas_cm": [
+    [
+      62,
+      4
+    ],
+    [
+      5,
+      20
+    ]
+  ],
+  "rl_clas_cm": [
+    [
+      61,
+      5
+    ],
+    [
+      5,
+      20
+    ]
+  ]
+}

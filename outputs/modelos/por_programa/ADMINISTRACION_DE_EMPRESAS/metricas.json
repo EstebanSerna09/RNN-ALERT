@@ -1,0 +1,18 @@
+{
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "recall_opt": 1.0,
+  "precision_opt": 1.0,
+  "f1_opt": 1.0,
+  "recall_05": 1.0,
+  "precision_05": 1.0,
+  "f1_05": 1.0,
+  "umbral_optimo": 0.22000000000000003,
+  "precision@100": 0.07,
+  "reporte": "              precision    recall  f1-score   support\n\n No desertor     1.0000    1.0000    1.0000       259\n    Desertor     1.0000    1.0000    1.0000         7\n\n    accuracy                         1.0000       266\n   macro avg     1.0000    1.0000    1.0000       266\nweighted avg     1.0000    1.0000    1.0000       266\n",
+  "mae": 0.11548203974962234,
+  "rmse": 0.15009784698486328,
+  "r2": 0.9888284802436829,
+  "programa": "ADMINISTRACION_DE_EMPRESAS",
+  "timestamp": "2026-06-17T11:16:12.898625"
+}
